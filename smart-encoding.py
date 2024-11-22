@@ -2,9 +2,9 @@ from math import prod
 
 
 # Implementazione di un metodo di codifica/decodifica di stringhe basato su numeri primi
-# Sfrutta il Teorema Cinese del Resto per mantenere l'informazione della posizione
-# dei singoli caratteri in una sequenza, evitando così di usare un sistema posizionale 
-# base 256 con valori che esplodono molto rapidamente
+# la mia implementazione sfrutta il Teorema Cinese del Resto per mantenere l'informazione della posizione
+# dei singoli caratteri presenti in una sequenza, evitando così di usare un sistema posizionale 
+# base 256, con potenze che esplodono molto rapidamente
 #
 # Principio di funzionamento:
 # 1. Usa numeri primi come pesi per garantire l'unicità della codifica
